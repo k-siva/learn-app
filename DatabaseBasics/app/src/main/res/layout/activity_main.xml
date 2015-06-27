@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:id="@+id/textView"
+        android:layout_weight="0.20" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EmpName"
+        android:layout_weight="0.73"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:text="Age"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+    <EditText
+        android:id="@+id/AgeValue"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_below="@id/EmpName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@id/textView2"
+        android:text="Emp ID"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
+
+    <EditText
+        android:id="@+id/EmpID"
+        android:layout_toRightOf="@id/textView3"
+        android:layout_below="@id/AgeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:text="@string/SaveButton"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="OnSaveButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3" />
+
+    <Button
+        android:id="@+id/RetrieveButton"
+        android:text="@string/RetrieveButton"
+        android:layout_below="@id/SaveButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:onClick="OnRetrieveButtonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbstatus"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

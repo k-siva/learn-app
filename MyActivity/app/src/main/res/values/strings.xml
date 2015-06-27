@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">MyMessage</string>
+    <string name="action_search">MyApp</string>
+    <string name="action_mymenu">MyMenu</string>
+
+</resources>
