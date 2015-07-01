@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PingPong</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="caption">This application demonstrates the scene transition through ping pong game</string>
+
+</resources>
