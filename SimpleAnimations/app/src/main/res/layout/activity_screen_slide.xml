@@ -1,0 +1,17 @@
+<!--
+
+ViewPagers have built-in swipe gestures to transition through pages, and
+they display screen slide animations by default, so you don't need to create any.
+ViewPagers use PagerAdapters as a supply for new pages to display, so the PagerAdapter will use
+the fragment class that you created earlier.
+
+-->
+
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pager"
+    tools:context="com.example.asiablr.simpleanimations.ScreenSlideActivity">
+
+</android.support.v4.view.ViewPager>
