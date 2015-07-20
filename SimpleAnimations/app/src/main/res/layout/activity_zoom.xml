@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.asiablr.simpleanimations.ZoomActivity">
+
+    <FrameLayout
+        android:id="@+id/zoomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/thumb_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:src="@drawable/bird1_thumb"
+                android:onClick="OnImageButton1Click"
+                android:layout_marginRight="20dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:src="@drawable/bird2_thumb"
+                android:onClick="OnImageButton2Click"
+                android:layout_marginRight="20dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:src="@drawable/bird3_thumb"
+                android:onClick="OnImageButton3Click"
+                android:layout_marginRight="20dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:src="@drawable/bird4_thumb"
+                android:onClick="OnImageButton4Click"
+                android:layout_marginRight="20dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp" />
+
+        </LinearLayout>
+
+        <!-- Image view that will show the full size image,
+             but will be hidden by defailt
+        -->
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+</RelativeLayout>

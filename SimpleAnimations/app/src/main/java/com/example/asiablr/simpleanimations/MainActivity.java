@@ -35,6 +35,18 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    // card flip animation demo
+    public void OnCardFlipClick(View v) {
+        Intent intent = new Intent(this, CardFlipActivity.class);
+        startActivity(intent);
+    }
+
+    // zoom view animation demo
+    public void OnZoomViewClick(View v) {
+        Intent intent = new Intent(this, ZoomActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will

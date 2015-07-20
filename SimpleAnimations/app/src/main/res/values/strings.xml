@@ -8,5 +8,11 @@
     <string name="title_activity_screen_slide">ScreenSlideActivity</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_card_flip">CardFlipActivity</string>
 
+    <string name="flagtext">The National Flag of India is a horizontal rectangular tricolour of deep saffron, white and India green; with the Ashoka Chakra, a 24-spoke wheel, in navy blue at its centre. It was adopted in its present form during a meeting of the Constituent Assembly held on 22 July 1947, when it became the official flag of the Dominion of India. The flag was subsequently retained as that of the Republic of India. In India, the term "tricolour" almost always refers to the Indian national flag.
+</string>
+
+    <string name="flagname">Indian Flag</string>
+    <string name="title_activity_zoom">ZoomActivity</string>
 </resources>

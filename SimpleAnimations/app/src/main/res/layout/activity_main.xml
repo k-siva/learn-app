@@ -13,11 +13,27 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/screenSlideButton"
         android:layout_width="match_parent"
         android:layout_below="@id/crossFadeButton"
         android:text="Screen Slide Animation"
         android:onClick="OnScreenSlideClick"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:id="@+id/cardFlipAnimation"
+        android:layout_width="match_parent"
+        android:layout_below="@id/screenSlideButton"
+        android:text="Card Flip Animation"
+        android:onClick="OnCardFlipClick"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/zoomViewButton"
+        android:layout_below="@id/cardFlipAnimation"
+        android:onClick="OnZoomViewClick"
+        android:text="Zoom View Animation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

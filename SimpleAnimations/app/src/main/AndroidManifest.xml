@@ -32,6 +32,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.asiablr.simpleanimations.MainActivity" />
         </activity>
+        <activity
+            android:name=".CardFlipActivity"
+            android:label="@string/title_activity_card_flip"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asiablr.simpleanimations.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ZoomActivity"
+            android:label="@string/title_activity_zoom"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.asiablr.simpleanimations.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
