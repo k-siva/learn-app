@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListFragmentBasics</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="caption_text">This is demonstration of Lists. Please scroll down to check the entire list contents. If you click
+        an Item, it will get highlighted.
+    </string>
+
+</resources>
